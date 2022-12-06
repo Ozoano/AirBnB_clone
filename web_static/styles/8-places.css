@@ -1,0 +1,97 @@
+div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+article {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: solid 1px #FF5A5F;
+    border-radius: 4px;
+}
+
+article,
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.price_by_night{
+color: #FF5A5F;
+border: solid 4px #FF5A5F;
+border-radius:50%;
+width: 60px;
+height: 60px;
+font-size: 30px;
+padding-top: 25px ;
+padding-left: 15px;
+padding-right: 15px;
+margin-left: 50px;
+margin-right: -100px;
+margin-top: 25px;
+}
+
+
+.information{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.max_guest{
+display: flex;
+flex-direction: column;
+}
+
+.guests{
+    background: url(/web_static/images/icon_group.png) no-repeat;
+}
+.bed{
+    background: url(/web_static/images/icon_bed.png) no-repeat;
+}
+.bath{
+    background: url(/web_static/images/icon_bath.png) no-repeat;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 0;
+}
+
+.icons > p{
+    font-size: small;
+    margin-top: 0;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin: 0 auto;
+}
+
+.user{
+margin-bottom: 0;
+text-align: justify;
+font-size: 16px;
+display: block;
+} 
+
+.description{
+    margin-top: 0;
+    text-align: justify;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1025px) {
+    body{
+        margin: 30px 0;
+    }
+    h1 {
+        margin:30px;
+    }
+
+}

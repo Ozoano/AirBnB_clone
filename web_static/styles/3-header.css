@@ -1,0 +1,16 @@
+header {
+    height: 70px;
+    width: 100%;
+    border-bottom: solid 1px #CCCCCC;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+header div{
+    background: white url('/web_static/images/logo.png') no-repeat center center;
+    width: 150px;
+    height: 70px;
+    margin-left: 20px;
+
+}
